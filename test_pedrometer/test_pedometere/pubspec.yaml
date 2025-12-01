@@ -1,0 +1,22 @@
+name: heart_rate_flutter
+description: A Flutter app to receive heart rate from Wear OS.
+
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_wear_os_connectivity: ^1.0.0 # use latest version
+  provider: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
