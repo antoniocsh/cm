@@ -103,7 +103,7 @@ fun MainScreen(
                 horizontalAlignment = Alignment.CenterHorizontally
             ) {
                 Text(
-                    color = Color.LightGray,
+                    color = Color.Red,
                     text = "IBI",
                     fontSize = 11.sp,
                     textAlign = TextAlign.Right
